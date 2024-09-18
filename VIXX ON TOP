@@ -73,7 +73,7 @@ UICorner.Parent = Frame
 local CamlockButton = Instance.new("TextButton")
 CamlockButton.Size = UDim2.new(0, 200, 0, 60)
 CamlockButton.Position = UDim2.new(0.5, 0, 0.5, 0)
-CamlockButton.Text = "Vizx"
+CamlockButton.Text = "Vix"
 CamlockButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 CamlockButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 CamlockButton.BorderSizePixel = 0
@@ -152,7 +152,7 @@ end
 local function ToggleCamlock()
     if settings.CamlockState then
         settings.CamlockState = false
-        CamlockButton.Text = "Vizx OFF"
+        CamlockButton.Text = "Vix OFF"
         
         if ESPBillboardGui then
             ESPBillboardGui:Destroy()
@@ -161,7 +161,7 @@ local function ToggleCamlock()
         enemy = nil
     else
         settings.CamlockState = true
-        CamlockButton.Text = "Vizx ON"
+        CamlockButton.Text = "Vix ON"
 
         enemy = FindNearestEnemy()
         if enemy then
