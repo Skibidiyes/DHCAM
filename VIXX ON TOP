@@ -22,7 +22,7 @@ ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
 
 local ToggleButton = Instance.new("TextButton")
 ToggleButton.Size = UDim2.new(0, 180, 0, 50)
-ToggleButton.Text = "Nightmare.Ez off❌"
+ToggleButton.Text = "Vix off❌"
 ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 ToggleButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 ToggleButton.BorderSizePixel = 0
@@ -37,7 +37,7 @@ ButtonCorner.Parent = ToggleButton
 
 local function DisplayNotification(text)
     game.StarterGui:SetCore("SendNotification", {
-        Title = "😈 NIGHTMARE 😈",
+        Title = "🎃 Vix 🎃",
         Text = text,
         Duration = 5,
         Icon = "rbxassetid://2541869220"
@@ -145,3 +145,8 @@ RunService.Heartbeat:Connect(function()
         camera.CFrame = CFrame.new(camera.CFrame.p, enemy.Position + Vector3.new(getgenv().Settings.PredictionHorizontal, getgenv().Settings.PredictionVertical, 0))
     end
 end)
+
+-- made by V4mp -- this is the script maker 
+-- the chill owner:3 -- vix🔥 
+
+-- pls don't skid pls bro
